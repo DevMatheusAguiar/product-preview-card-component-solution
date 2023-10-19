@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3EAE3;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif, Arial;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-size: 14px;
+    max-height: 800px;
+    border-radius: 12px;
+}
+
+.principal-card
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 250px;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.principal-card
+.text h1 {
+    letter-spacing: 0.3rem;
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.principal-card
+.text h2 {
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+    font-family: fraunces;
+    margin-bottom: 18px;
+}
+
+.principal-card
+.text p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: rgb(152, 151, 151);
+}
+
+.principal-card
+.text
+.prices {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.principal-card
+.text
+.prices p {
+    text-decoration: line-through;
+}
+
+.principal-card
+.text
+.prices
+.price {
+    font-size: 2rem;
+    font-family: fraunces;
+    color: #3D8168;
+    text-decoration: none;
+}
+
+.principal-card img {
+    width: 300px;
+    margin-right: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.principal-card 
+.text button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 8px;
+    margin-top: 25px;
+    background-color: #3D8168;
+    color: white;
+    font-weight: bold;
+    width: 230px;
+    height: 50px;
+    border: none;
+    padding: 0 15px;
+}
+
+.principal-card 
+.text button:hover {
+    background-color: #1a332a;
+    cursor: pointer;
+}
+
+
+.principal-card 
+.text button img {
+    width: 20px;
+    content: url(images/icon-cart.svg);
+    margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+    main {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .principal-card {
+        flex-direction: column;
+        max-height: none;
+        width: 100%;
+        margin: 15px;
+        width: calc(100% - 30px);
+    }
+
+    .principal-card img {
+        content: url('images/image-product-mobile.jpg');
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 12px 12px 0 0;
+        max-width: none;
+        
+    }
+
+    .principal-card .text {
+        margin: 27px 23px 10px 23px;
+        text-align: left;
+        max-width: 300px;
+    }
+
+    .principal-card .text .prices {
+        align-self: flex-start;
+        margin-top: 32px;
+    }
+
+    .principal-card .text .prices p{
+        margin-right: 20px;
+    }
+
+    .principal-card .text button {
+        width: 100%;
+        margin: 25px auto;
+    }
+}
