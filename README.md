@@ -20,7 +20,9 @@ This project showcases a sleek and modern and simple product card, focusing on a
 
 Screenshot: check the GitHub Repo.
 
-Links Solution URL: GitHub Repository Live Site URL: soon.
+Links Solution URL: https://github.com/DevMatheusAguiar/product-preview-card-component-solution
+
+GitHub Repository Live Site URL: soon.
 
 My Process:
 
