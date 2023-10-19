@@ -22,7 +22,7 @@ Screenshot: check the GitHub Repo.
 
 Links Solution URL: https://github.com/DevMatheusAguiar/product-preview-card-component-solution
 
-GitHub Repository Live Site URL: soon.
+GitHub Repository Live Site URL: https://product-preview-card-component-solution-two.vercel.app/
 
 My Process:
 
